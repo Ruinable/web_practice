@@ -89,8 +89,10 @@ main {
 }
 
 main p {
-  padding: 10px 0 5px 10px;
+  padding: 10px 0 5px 20px;
   margin: 0 0 15px 0;
+
+  font-size: 16px;
 
   background-color: #C6D4DF;
 }
@@ -107,6 +109,7 @@ footer {
 }
 
 footer .update_date p{
+  font-size: 10px;
   color: #FFFFFF;
 }
 
@@ -118,19 +121,17 @@ header nav ul li a:hover { color: #FFFFFF; }
 
 @media (min-width: 320px) and (max-width: 1000px) {
 
-  .container {
-    width: 100%;
-  }
-
-  header h1 {
-    text-align: center;
-  }
-
   header nav ul li {
     width: 25%;
   }
 
-  main {
+  main p {
+    display: inline-block;
+
+    width: 100vw;
+
+    font-size: 16px;
+
     text-align: center;
   }
 
